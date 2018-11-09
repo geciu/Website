@@ -1,0 +1,162 @@
+﻿<!DOCTYPE HTML>
+<html lang="pl-PL">
+<head>
+    <meta charset="UTF-8" />
+    <title>Filip Getek | koszykówka</title>
+    <meta name="description" content="Strona o moim hobby" />
+    <meta name="keywords" content="hobby, koszykówka, basketball, nba,  projekt" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="author" content="Filip Getek" />
+    <link rel="Stylesheet" href="Style.css" type="text/css"/>
+    <link href="https://fonts.googleapis.com/css?family=Ubuntu:300,400,700&amp;subset=latin-ext" rel="stylesheet"> 
+</head>
+
+<body>
+    
+    <div class="strona">
+
+        <div class="naglowek">
+            <div class="logo">
+                życie<span style="color: #f59d3e">koszykarza</span>.pl
+            </div>
+        </div>
+
+        <div class="menu">
+            <ol>
+                <li><a href="index.htm">Strona główna</a></li>
+                <li>
+                    <a href="okoszykowce.htm">O koszykówce</a>
+                    <ul>
+                        <li><a href="historia.htm">Historia</a></li>
+                        <li><a href="zasady.htm">Zasady gry</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="nbaeuro.htm">NBA i Euroliga</a>
+                    <ul>
+                        <li><a href="nba.htm">NBA</a></li>
+                        <li><a href="euro.htm">Euroliga</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="ja.htm">Koszykówka i ja</a>
+                    <ul>
+                        <li><a href="druzyny.htm">Ulubione drużyny</a></li>
+                        <li><a href="idole.htm">Moi idole</a></li>
+                    </ul>
+                </li>
+                <li><a href="kontakt.htm">Kontakt</a></li>
+            </ol>
+        </div>
+
+        
+            <div class="tresc">
+                
+                <div id="formularz">
+                    <h3>Wyslij maila do redakcji!</h3>
+                    <form>
+
+                        <p>
+                            <label>Imie i nazwisko</label>
+                            <input name="name" placeholder="Imie Nazwisko">
+                        </p>
+
+                        <p>
+                            <label>Email</label>
+                            <input name="email" type="email" placeholder="mail@redakcja.pl.pl">
+                        </p>
+
+                        <p>
+                            <label>Wiadomość</label>
+                            <textarea name="message" placeholder="Treść wiadomości"></textarea>
+                        </p>
+
+                        <p><input id="submit" name="submit" type="submit" value="Wyślij"></p>
+                    </form>
+                </div>
+
+                <br /><br /><br />
+
+
+                            <form action="mailto:e-mail" method="post" enctype="text/plain">
+                                <div id="tbl">
+                                    <table>
+                                        <tr>
+                                            <td>Imię:</td>
+                                            <td><input type="text" name="imie" /></td>
+                                        </tr>
+                                        <tr>
+                                            <td>Nazwisko:</td>
+                                            <td><input type="text" name="nazwisko" /></td>
+                                        </tr>
+                                    </table>
+                                </div>
+                            </form>
+
+                            <p>Podaj swoją płeć:</p>
+                            <input type="radio" name="Płeć" value="Kobieta" />Kobieta
+                            <input type="radio" name="Płeć" value="Mężczyzna" />Mężczyzna
+
+                            <p>Ile masz lat?</p>
+                            <input type="radio" name="Wiek" value="mniej niż 15" />mniej niż 15<br />
+                            <input type="radio" name="Wiek" value="15-19" />15-19<br />
+                            <input type="radio" name="Wiek" value="20-29" />20-29<br />
+                            <input type="radio" name="Wiek" value="30-39" />30-39<br />
+                            <input type="radio" name="Wiek" value="40-60" />40-60<br />
+                            <input type="radio" name="Wiek" value="więcej niż 60" />więcej niż 60
+
+                            <p>Jaka jest Twoja ulubiona drużyna NBA (możesz zaznaczyć więcej możliwości)?</p>
+                            <input type="checkbox" name="Druzyna" value="Miami Heat" />Miami Heat<br />
+                            <input type="checkbox" name="Druzyna" value="Chicago Bulls" />Chicago Bulls<br />
+                            <input type="checkbox" name="Druzyna" value="Golden State Warriors" />Golden State Warriors<br />
+                            <input type="checkbox" name="Druzyna" value="New York Knicks" />New York Knicks<br />
+                            <input type="checkbox" name="Druzyna" value="Boston Celtics" />Boston Celtics<br />
+                            <input type="checkbox" name="Druzyna" value="Inna" />Inna (podaj jaka):
+                            <input name="Muzyka" />
+
+                            <p>Jakiej drużynie kibicujesz>?</p>
+                            <select name="Przeglądarka">
+                                <option selected="selected">Miami Heat</option>
+                                <option>Chicago Bulls</option>
+                                <option>New York Knicks</option>
+                                <option>Golden State Warriors</option>
+                                <option>Inna</option>
+                            </select>
+
+                            <p>Którzy zawodnicy grają/grali w Chicago Bulls (możesz wybrać kilka opcji trzymając klawisz Ctrl)?</p>
+                            <select name="System operacyjny" multiple="multiple" size="3">
+                                <option selected="selected">Michael Jordan</option>
+                                <option>Dwyane Wade</option>
+                                <option>Shaquille O'neal</option>
+                                <option>Allen Iverson</option>
+                            </select>
+                            
+                            <p>Podaj swój komentarz:</p>
+                            <textarea name="Komentarz" cols="50" rows="10"> </textarea>
+                            <br /><br /><br />
+                            
+                            <input type="submit" value="Wyślij formularz" />
+                            
+                            <input type="reset" value="Wyczyść dane" />
+                            <br /><br />
+
+                        </div>
+                    
+                
+    </div>
+        
+        <br /><br /><br />
+
+        <div id="blok">
+            <p>Dziękujemy za wypełnienie ankiety! Życzymy miłego dnia, pełnego sportowych emocji! :)</p>
+            
+        </div>
+        <br /><br /><br />
+
+        
+        <div id="footer">
+            Filip Getek &copy; | Projekt 1 | HiH; 
+        </div>
+
+</body>
+</html>

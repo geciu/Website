@@ -1,0 +1,104 @@
+﻿<!DOCTYPE HTML>
+<html lang="pl-PL">
+<head>
+    <meta charset="UTF-8" />
+    <title>Filip Getek | koszykówka</title>
+    <meta name="description" content="Strona o moim hobby" />
+    <meta name="keywords" content="hobby, koszykówka, basketball, nba,  projekt" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="author" content="Filip Getek" />
+    <link rel="Stylesheet" href="Style.css" type="text/css"/>
+    <link href="https://fonts.googleapis.com/css?family=Ubuntu:300,400,700&amp;subset=latin-ext" rel="stylesheet"> 
+    <script>
+    function rysujOkrag(evt)
+    {
+      var okrag= evt.target;
+      var promien= okrag.getAttribute("r");
+      if (promien== 50)
+      {
+        promien= 75;
+      }
+      else
+      {
+        promien= 50;
+      }
+      okrag.setAttribute("r",promien);
+    }
+    </script>
+</head>
+
+<body>
+    
+    <div class="strona">
+       
+         <div class="naglowek">
+             <div class="logo">       
+             życie<span style="color: #f59d3e">koszykarza</span>.pl
+             </div>
+         </div>
+
+        <div class="menu">
+            <ol>
+                <li><a href="index.htm">Strona główna</a></li>
+                <li>
+                    <a href="okoszykowce.htm">O koszykówce</a>
+                    <ul>
+                        <li><a href="historia.htm">Historia</a></li>
+                        <li><a href="zasady.htm">Zasady gry</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="nbaeuro.htm">NBA i Euroliga</a>
+                    <ul>
+                        <li><a href="nba.htm">NBA</a></li>
+                        <li><a href="euro.htm">Euroliga</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="ja.htm">Koszykówka i ja</a>
+                    <ul>
+                        <li><a href="druzyny.htm">Ulubione drużyny</a></li>
+                        <li><a href="idole.htm">Moi idole</a></li>
+                    </ul>
+                </li>
+                <li><a href="kontakt.htm">Kontakt</a></li>
+            </ol>
+        </div>
+
+        <div class="tresc">
+            <p><i>Zwycięzcą jest ten, który zdaje sobie sprawę z talentów otrzymanych od Boga i ciężko pracuje, 
+            aby zamienić je w umiejętności. Potem musi ich użyć, aby osiągnąć wszystkie swoje cele.</i></p>
+            <br />
+
+            <p>Powyższe słowa zostały wypowiedziane przez Larrego Birda, jednego z najlepszych zawodników w historii ligi NBA,
+            a obecnie menedżera drużyny Indiana Pacers. Cytat ten jest uniwersalny i odnosi się nie tylko do koszykówki,
+            ale praktycznie do każdej dziedziny życia. Aby osiągać cele, powinniśmy cieżko przedewszystkim ciężko pracować
+            i wykorzystywać szanse, które daje nam życie.</p>
+
+            <p>Jest to moja autorska strona internetowa na temat koszykówki, mojej drugiej pasji, zaraz po programowaniu ;). 
+            Koszykówka jest piękną dyscypliną, która łaczy ludzi ponad podziałami, nie zważając na wiek, wzrost, czy też rasę. 
+            Obecnie jest jednym z najbardziej popularnych sportów na świecie.</p>
+
+            <p>Koszykarze najlepszej ligi świata, NBA, znajdują się w czołowce najlepiej opłacanych atletów na ziemi.
+            Ich zarobki siegają dziesiątek milionów dolarów za sezon. Jednak aby dojść na sam szczyt koszykarskiego świata, potrzeba wielu 
+            wyrzeczeń oraz poświęceń.</p>
+
+            <div id="svg">
+                <svg width="300px" height="300px">
+                    <text x="25" y="275">Kliknij, aby zmienić rozmiar.</text>
+                    <circle cx="125" cy="150" r="50"
+                            fill="orange" stroke="lightgrey" stroke-width="5"
+                            onclick="rysujOkrag(evt)" />
+                </svg>
+            </div>
+            </div>
+
+        
+        <div id="footer">
+            Filip Getek &copy; | Projekt 1 | HiH; 
+        </div>
+   
+     </div>
+
+</body>
+</html>
